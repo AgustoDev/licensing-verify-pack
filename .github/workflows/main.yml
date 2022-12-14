@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: 16.15.1
         env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: ${{secrets.NPM_TOKEN}}
 
       - run: npm install
       - run: npm run build
