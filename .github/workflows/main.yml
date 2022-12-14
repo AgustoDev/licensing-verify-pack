@@ -19,8 +19,5 @@ jobs:
 
       - run: npm install
       - run: npm run build
-      - run: touch .npmrc
-      - run: |
-          echo '//npm.pkg.github.com/:_authToken=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' >> ./.npmrc
       - run: npm run test
       - run: npm publish
