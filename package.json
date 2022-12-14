@@ -2,7 +2,6 @@
   "name": "@agustodev/licensing-verify-pack",
   "author": "agusto-dev",
   "license": "ISC",
-  "private": true,
   "version": "1.0.0",
   "type": "module",
   "publishConfig": {
